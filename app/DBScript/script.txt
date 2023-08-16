@@ -1,0 +1,8 @@
+INSERT INTO screenhunts (MovieID , MovieName , Detail,Genre,ReleaseDate ,Poster,Cast,Rating,Netflix,Disney,HBO,Prime, createdAt, updatedAt)
+VALUES ('lag','Lagaan','Cricket movie','Drama','2001-01-01' ,'./../../assets/images/landing-page/result_movie@2x.png','Aamir Khan','4.5/5','1','0','1','0','2002-01-01','2023-01-01');
+
+SELECT * FROM screenhunts
+
+UPDATE screenhunts
+SET Poster = './../../assets/images/search-result/result_movie@2x.png'
+WHERE id = 1
