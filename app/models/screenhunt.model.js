@@ -36,6 +36,9 @@ module.exports = (sequelize, Sequelize) => {
       Prime:{
         type:Sequelize.STRING
       },
+      IsTrending:{
+        type:Sequelize.STRING
+      },
 
     });
   

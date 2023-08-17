@@ -7,7 +7,7 @@ module.exports = app => {
     // router.post("/", screenhunts.create);
   
     // // Retrieve all Tutorials
-    // router.get("/", screenhunts.findAll);
+     router.get("/", screenhunts.findAll);
   
     // // Retrieve all published Tutorials
     // router.get("/published", screenhunts.findAllPublished);

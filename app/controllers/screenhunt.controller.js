@@ -33,21 +33,21 @@ const Op = db.Sequelize.Op;
 // };
 
 // // Retrieve all Tutorials from the database.
-// exports.findAll = (req, res) => {
-//   const title = req.query.title;
-//   var condition = title ? { title: { [Op.like]: `%${title}%` } } : null;
+ exports.findAll = (req, res) => {
+ const title = req.query.title;
+  var condition = title ? { title: { [Op.like]: `%${title}%` } } : null;
 
-//   Screenhunt.findAll({ where: condition })
-//     .then(data => {
-//       res.send(data);
-//     })
-//     .catch(err => {
-//       res.status(500).send({
-//         message:
-//           err.message || "Some error occurred while retrieving screenhunt."
-//       });
-//     });
-// };
+  Screenhunt.findAll({ where: condition })
+    .then(data => {
+      res.send(data);
+    })
+    .catch(err => {
+      res.status(500).send({
+        message:
+          err.message || "Some error occurred while retrieving screenhunt."
+      });
+    });
+};
 
 // Find a single Screenhunt with an id
 exports.findOne = (req, res) => {
