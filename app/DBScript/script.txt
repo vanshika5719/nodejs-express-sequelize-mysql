@@ -1,8 +1,29 @@
-INSERT INTO screenhunts (MovieID , MovieName , Detail,Genre,ReleaseDate ,Poster,Cast,Rating,Netflix,Disney,HBO,Prime, createdAt, updatedAt)
-VALUES ('lag','Lagaan','Cricket movie','Drama','2001-01-01' ,'./../../assets/images/landing-page/result_movie@2x.png','Aamir Khan','4.5/5','1','0','1','0','2002-01-01','2023-01-01');
+INSERT INTO screenhunts (MovieID , MovieName , Detail,Genre,ReleaseDate ,Poster,Cast,Rating,Netflix,Disney,HBO,Prime, IsTrending, createdAt, updatedAt)
+VALUES
+    ('Adv', 'The Adventure Begins', 'Join our heroes on an epic quest to save the kingdom.', 'Action', '2023-04-15', './../../assets/images/search-result/movietry.jpg', 'John Doe, Jane Smith, Michael Johnson', '4.25/5','1','0','1','0', '1', '2002-01-01','2023-01-01'),
+    ('Lov', 'Love in the City', 'A heartwarming story of romance and friendship in the bustling city.', 'Romantic', '2023-06-21', './../../assets/images/search-result/movietry.jpg', 'Emma Brown, James Anderson, Olivia Lee', '3.95/5','1','0','0','0', '0', '2002-01-01','2023-01-01'),
+    ('Mys', 'Mystery at Midnight', 'Unravel the secrets hidden beneath the moonlit town.', 'Drama', '2023-08-10', './../../assets/images/search-result/movietry.jpg', 'Robert Taylor, Sarah White, David Harris', '4.1/5','0','0','0','0', '0', '2002-01-01','2023-01-01'),
+    ('Sci', 'Sci-Fi Odyssey', 'Embark on a mind-bending journey through the cosmos.', 'Action', '2023-05-05', './../../assets/images/search-result/movietry.jpg', 'Jennifer Roberts, Mark Adams, Emily Clark',' 4.4/5','1','0','0','0', '0', '2002-01-01','2023-01-01'),
+    ('Com', 'Comedy Central', 'Get ready to laugh uncontrollably with this hilarious comedy.', 'Drama', '2023-07-12', './../../assets/images/search-result/movietry.jpg', 'Kevin Wilson, Lisa Martinez, Andrew Brown', '3.8/5','1','0','0','0', '1', '2002-01-01','2023-01-01'),
+    ('His', 'Historical Echoes', 'Relive the past in this gripping tale of history and courage.', 'Drama', '2023-09-02','./../../assets/images/search-result/movietry.jpg', 'Victoria Turner, William Adams, Thomas Miller', '4.2/5','1','0','1','0', '1', '2002-01-01','2023-01-01'),
+    ('Act', 'Action Unlimited', 'Experience adrenaline-pumping action like never before.', 'Action', '2023-07-28', './../../assets/images/search-result/movietry.jpg', 'Jason Walker, Samantha Reed, Chris Evans', '4.5/5','1','1','1','1', '1', '2002-01-01','2023-01-01'),
+    ('Hor', 'Horror House', 'Enter if you dare into the spine-chilling horror that awaits.', 'Drama', '2023-10-18', './../../assets/images/search-result/movietry.jpg', 'Emily Johnson, Daniel White, Michelle Thompson', '3.65/5','1','0','1','0', '0', '2002-01-01','2023-01-01'),
+    ('Ani', 'Animated Dreams', 'An enchanting animated world filled with imagination and wonder.', 'Drama', '2023-12-05', './../../assets/images/search-result/movietry.jpg', 'Lucas Baker, Sophia Lee, Noah Williams', '4.35/5','0','0','0','0', '0', '2002-01-01','2023-01-01'),
+    ('Rom', 'Romantic Getaway', 'Escape to a romantic paradise with this heartwarming story.', 'Romantic', '2023-11-14','./../../assets/images/search-result/movietry.jpg', 'Ella Adams, Liam Walker, Chloe Roberts', '4.05/5','1','1','1','1', '1', '2002-01-01','2023-01-01');
 
-SELECT * FROM screenhunts
+select * from screenhunts;
+
+DELETE FROM screenhunts
+WHERE id = 1;
 
 UPDATE screenhunts
-SET Poster = './../../assets/images/search-result/result_movie@2x.png'
-WHERE id = 1
+SET Poster = './../../assets/images/search-result/movietry.jpg'
+WHERE id = 4;
+
+UPDATE screenhunts
+SET HBO = '0'
+WHERE id = 1;
+
+UPDATE screenhunts
+SET id = '1'
+WHERE id = 4;
