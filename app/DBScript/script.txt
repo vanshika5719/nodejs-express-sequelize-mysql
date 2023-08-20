@@ -1,28 +1,36 @@
 INSERT INTO screenhunts (MovieID , MovieName , Detail,Genre,ReleaseDate ,Poster,Cast,Rating,Netflix,Disney,HBO,Prime, IsTrending, createdAt, updatedAt)
 VALUES
-    ('Adv', 'The Adventure Begins', 'Join our heroes on an epic quest to save the kingdom.', 'Action', '2023-04-15', './../../assets/images/search-result/movietry.jpg', 'John Doe, Jane Smith, Michael Johnson', '4.25/5','1','0','1','0', '1', '2002-01-01','2023-01-01'),
-    ('Lov', 'Love in the City', 'A heartwarming story of romance and friendship in the bustling city.', 'Romantic', '2023-06-21', './../../assets/images/search-result/movietry.jpg', 'Emma Brown, James Anderson, Olivia Lee', '3.95/5','1','0','0','0', '0', '2002-01-01','2023-01-01'),
-    ('Mys', 'Mystery at Midnight', 'Unravel the secrets hidden beneath the moonlit town.', 'Drama', '2023-08-10', './../../assets/images/search-result/movietry.jpg', 'Robert Taylor, Sarah White, David Harris', '4.1/5','0','0','0','0', '0', '2002-01-01','2023-01-01'),
-    ('Sci', 'Sci-Fi Odyssey', 'Embark on a mind-bending journey through the cosmos.', 'Action', '2023-05-05', './../../assets/images/search-result/movietry.jpg', 'Jennifer Roberts, Mark Adams, Emily Clark',' 4.4/5','1','0','0','0', '0', '2002-01-01','2023-01-01'),
-    ('Com', 'Comedy Central', 'Get ready to laugh uncontrollably with this hilarious comedy.', 'Drama', '2023-07-12', './../../assets/images/search-result/movietry.jpg', 'Kevin Wilson, Lisa Martinez, Andrew Brown', '3.8/5','1','0','0','0', '1', '2002-01-01','2023-01-01'),
-    ('His', 'Historical Echoes', 'Relive the past in this gripping tale of history and courage.', 'Drama', '2023-09-02','./../../assets/images/search-result/movietry.jpg', 'Victoria Turner, William Adams, Thomas Miller', '4.2/5','1','0','1','0', '1', '2002-01-01','2023-01-01'),
-    ('Act', 'Action Unlimited', 'Experience adrenaline-pumping action like never before.', 'Action', '2023-07-28', './../../assets/images/search-result/movietry.jpg', 'Jason Walker, Samantha Reed, Chris Evans', '4.5/5','1','1','1','1', '1', '2002-01-01','2023-01-01'),
-    ('Hor', 'Horror House', 'Enter if you dare into the spine-chilling horror that awaits.', 'Drama', '2023-10-18', './../../assets/images/search-result/movietry.jpg', 'Emily Johnson, Daniel White, Michelle Thompson', '3.65/5','1','0','1','0', '0', '2002-01-01','2023-01-01'),
-    ('Ani', 'Animated Dreams', 'An enchanting animated world filled with imagination and wonder.', 'Drama', '2023-12-05', './../../assets/images/search-result/movietry.jpg', 'Lucas Baker, Sophia Lee, Noah Williams', '4.35/5','0','0','0','0', '0', '2002-01-01','2023-01-01'),
-    ('Rom', 'Romantic Getaway', 'Escape to a romantic paradise with this heartwarming story.', 'Romantic', '2023-11-14','./../../assets/images/search-result/movietry.jpg', 'Ella Adams, Liam Walker, Chloe Roberts', '4.05/5','1','1','1','1', '1', '2002-01-01','2023-01-01');
+    ('las', 'The Last Stand', 'A retired soldier must defend his town from a dangerous cartel.', 'Action', '2023-10-10', 'https://m.media-amazon.com/images/I/71qjktV96jL._AC_UF1000,1000_QL80_.jpg', 'Arnold Schwarzenegger, Forest Whitaker', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('pur', 'The Pursuit of Happiness', 'A struggling salesman takes custody of his son as he begins a life-changing professional career.', 'Drama', '2023-11-05', 'https://media.licdn.com/dms/image/C4E12AQFPJDccfBQGQg/article-cover_image-shrink_600_2000/0/1623010487711?e=2147483647&v=beta&t=VwITBe8FEJsTDhKhv7Us0BpC-q4zljBSu7y9zaZprCI', 'Will Smith, Jaden Smith', '4.5/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
+    ('note', 'The Notebook', 'A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.', 'Romantic', '2023-12-01', 'https://m.media-amazon.com/images/I/71ua-8QWpUL._AC_UF894,1000_QL80_.jpg', 'Ryan Gosling, Rachel McAdams', '4.0/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('con', 'The Conjuring', 'Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.', 'Horror', '2023-12-15', 'https://m.media-amazon.com/images/I/81yAfVk+7UL._AC_UF894,1000_QL80_.jpg', 'Vera Farmiga, Patrick Wilson', '4.25/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
+    ('shaw', 'The Shawshank Redemption', 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.', 'Drama', '2023-12-31', 'https://i.ebayimg.com/images/g/McUAAOSw~e5ZW~ee/s-l1600.jpg', 'Tim Robbins, Morgan Freeman', '5.0/5', '1', '0', '0', '1', '1', '2002-01-01', '2023-01-01'),
+    ('bla', 'Black Ops', 'An elite team of soldiers embark on a covert mission to retrieve a scientist from a dangerous war zone.', 'Action', '2023-10-20', 'https://cdn.europosters.eu/image/750/posters/call-of-duty-black-ops-zombie-i12727.jpg', 'Chris Evans, Scarlett Johansson', '4.0/5', '1', '0', '0', '1', '1', '2002-01-01', '2023-01-01'),
+    ('los', 'Lost in Time', 'A man travels back in time to fix his mistakes, but finds that every change has unintended consequences.', 'Drama', '2023-11-10', 'https://pics.filmaffinity.com/Lost_in_Time-956197851-large.jpg', 'Hugh Jackman, Rachel McAdams', '4.5/5', '0', '1', '1', '0', '0', '2002-01-01', '2023-01-01'),
+    ('sum', 'Summer Love', 'Two strangers meet during a summer vacation and fall in love, but they must part ways at the end of the season.', 'Romantic', '2023-12-05', 'https://m.media-amazon.com/images/M/MV5BNzk0MGMwY2UtNDEwNi00NGIyLTg4MWItNTQwMWY5NGYzODdlXkEyXkFqcGdeQXVyMDM3ODU0Nw@@._V1_.jpg', 'Zac Efron, Emma Watson', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('hau', 'The Haunted Hotel', 'Guests at a hotel are terrorized by supernatural forces, and a group of paranormal investigators is called to solve the mystery.', 'Horror', '2023-12-20', 'https://m.media-amazon.com/images/M/MV5BNjRjZDM4NWYtOTkwZS00NjEzLThmNjgtNDRiZGVhZDM0NmM2XkEyXkFqcGdeQXVyODcyMjY1NzA@._V1_.jpg', 'Patrick Wilson, Vera Farmiga', '4.0/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
+    ('des', 'Desert Fury', 'A group of mercenaries is hired to rescue hostages from a warlord in the desert.', 'Action', '2024-01-15', 'https://m.media-amazon.com/images/I/91L6nkSxJ-L._AC_UF1000,1000_QL80_.jpg', 'Dwayne Johnson, Jason Statham', '4.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('art', 'The Artists Muse', 'A talented painter finds inspiration in a mysterious woman who becomes his muse.', 'Drama', '2024-02-10', 'https://m.media-amazon.com/images/I/51c7xJQYvUL._AC_UF894,1000_QL80_.jpg', 'Brad Pitt, Angelina Jolie', '4.0/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
+    ('win', 'Amazing Winter Romance', 'A couple finds love during a winter retreat, but their pasts threaten to tear them apart.', 'Romantic', '2024-03-05', 'https://media-cache.cinematerial.com/p/500x/ugfxlxru/amazing-winter-romance-movie-cover.jpg?v=1588612341', 'Ryan Gosling, Emma Stone', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('cur', 'The Cursed Village', 'A group of friends visits a remote village for a vacation, only to discover that it is cursed by an ancient evil.', 'Horror', '2024-04-01', 'https://images.squarespace-cdn.com/content/v1/511eea22e4b06642027a9a99/2d939f17-3702-4a0c-8b47-af7d85c8423b/The+Cursed.jpg', 'Daniel Radcliffe, Emma Roberts', '4.0/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
+    ('sky', 'Skyfall', 'An international spy must stop a terrorist organization from unleashing chaos from the skies.', 'Action', '2024-05-10', 'https://artofthemovies.co.uk/cdn/shop/products/skyfall_c668003e-502225.jpg?v=1630553609', 'Tom Cruise, Emily Blunt', '4.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('pia', 'The Pianist', 'A talented pianist struggles to survive the horrors of war and finds solace in his music.', 'Drama', '2024-06-05', 'https://m.media-amazon.com/images/I/61UZj3oFR3L._AC_UF894,1000_QL80_.jpg', 'Adrien Brody, Thomas Kretschmann', '5.0/5', '1', '0', '0', '1', '1', '2002-01-01', '2023-01-01');
 
 select * from screenhunts;
 select * from users;
 
-DELETE FROM screenhunts
+DELETE  FROM screenhunts
 WHERE id = 1;
 
-Delete From users
-where emailid = 'sa@gamail,com ';
+DELETE FROM users
+WHERE emailid IN ('xssxm');
+
+SET SQL_SAFE_UPDATES = 1;
+
 
 UPDATE screenhunts
-SET Poster = './../../assets/images/search-result/result.png'
-WHERE id = 10;
+SET Poster = 'https://m.media-amazon.com/images/I/81yAfVk+7UL._AC_UF894,1000_QL80_.jpg'
+WHERE id = 14;
 
 UPDATE screenhunts
 SET Disney = '1'
