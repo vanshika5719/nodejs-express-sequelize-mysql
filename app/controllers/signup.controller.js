@@ -28,7 +28,7 @@ module.exports.signup = async (req, res) => {
    {
     res.send({
       status: false,
-      msg: "email id already exits",
+      msg: "Email Id Already Exits",
     });
    } else 
    {
@@ -42,7 +42,7 @@ module.exports.signup = async (req, res) => {
       if (err) throw err;
       res.send({
         status: true,
-        msg: "user register successful",
+        msg: "User register successful",
       });
   });
  } 
@@ -69,14 +69,14 @@ module.exports.login = (req, res) => {
         res.send({
           status: true,
           result: result,
-          msg: "user login successful",
+          msg: "User login successful",
         });
       }
     
      }else{
       res.send({
         status: false,
-        msg: 'invalid email id'
+        msg: 'Invalid Email Id'
       })
      }
   });
