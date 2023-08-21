@@ -1,26 +1,47 @@
-INSERT INTO screenhunts (MovieID , MovieName , Detail,Genre,ReleaseDate ,Poster,Cast,Rating,Netflix,Disney,HBO,Prime, IsTrending, createdAt, updatedAt)
-VALUES
-    ('las', 'The Last Stand', 'A retired soldier must defend his town from a dangerous cartel.', 'Action', '2023-10-10', 'https://m.media-amazon.com/images/I/71qjktV96jL._AC_UF1000,1000_QL80_.jpg', 'Arnold Schwarzenegger, Forest Whitaker', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
-    ('pur', 'The Pursuit of Happiness', 'A struggling salesman takes custody of his son as he begins a life-changing professional career.', 'Drama', '2023-11-05', 'https://media.licdn.com/dms/image/C4E12AQFPJDccfBQGQg/article-cover_image-shrink_600_2000/0/1623010487711?e=2147483647&v=beta&t=VwITBe8FEJsTDhKhv7Us0BpC-q4zljBSu7y9zaZprCI', 'Will Smith, Jaden Smith', '4.5/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
+/*INSERT INTO screenhunts (MovieID , MovieName , Detail,Genre,ReleaseDate ,Poster,Cast,Rating,Netflix,Disney,HBO,Prime, IsTrending, createdAt, updatedAt)
+VALUES ('las', 'The Last Stand', 'A retired soldier must defend his town from a dangerous cartel.', 'Action', '2023-10-10', 'https://m.media-amazon.com/images/I/71qjktV96jL._AC_UF1000,1000_QL80_.jpg', 'Arnold Schwarzenegger, Forest Whitaker', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
     ('note', 'The Notebook', 'A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.', 'Romantic', '2023-12-01', 'https://m.media-amazon.com/images/I/71ua-8QWpUL._AC_UF894,1000_QL80_.jpg', 'Ryan Gosling, Rachel McAdams', '4.0/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
     ('con', 'The Conjuring', 'Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.', 'Horror', '2023-12-15', 'https://m.media-amazon.com/images/I/81yAfVk+7UL._AC_UF894,1000_QL80_.jpg', 'Vera Farmiga, Patrick Wilson', '4.25/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
-    ('shaw', 'The Shawshank Redemption', 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.', 'Drama', '2023-12-31', 'https://i.ebayimg.com/images/g/McUAAOSw~e5ZW~ee/s-l1600.jpg', 'Tim Robbins, Morgan Freeman', '5.0/5', '1', '0', '0', '1', '1', '2002-01-01', '2023-01-01'),
     ('bla', 'Black Ops', 'An elite team of soldiers embark on a covert mission to retrieve a scientist from a dangerous war zone.', 'Action', '2023-10-20', 'https://cdn.europosters.eu/image/750/posters/call-of-duty-black-ops-zombie-i12727.jpg', 'Chris Evans, Scarlett Johansson', '4.0/5', '1', '0', '0', '1', '1', '2002-01-01', '2023-01-01'),
-    ('los', 'Lost in Time', 'A man travels back in time to fix his mistakes, but finds that every change has unintended consequences.', 'Drama', '2023-11-10', 'https://pics.filmaffinity.com/Lost_in_Time-956197851-large.jpg', 'Hugh Jackman, Rachel McAdams', '4.5/5', '0', '1', '1', '0', '0', '2002-01-01', '2023-01-01'),
     ('sum', 'Summer Love', 'Two strangers meet during a summer vacation and fall in love, but they must part ways at the end of the season.', 'Romantic', '2023-12-05', 'https://m.media-amazon.com/images/M/MV5BNzk0MGMwY2UtNDEwNi00NGIyLTg4MWItNTQwMWY5NGYzODdlXkEyXkFqcGdeQXVyMDM3ODU0Nw@@._V1_.jpg', 'Zac Efron, Emma Watson', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
     ('hau', 'The Haunted Hotel', 'Guests at a hotel are terrorized by supernatural forces, and a group of paranormal investigators is called to solve the mystery.', 'Horror', '2023-12-20', 'https://m.media-amazon.com/images/M/MV5BNjRjZDM4NWYtOTkwZS00NjEzLThmNjgtNDRiZGVhZDM0NmM2XkEyXkFqcGdeQXVyODcyMjY1NzA@._V1_.jpg', 'Patrick Wilson, Vera Farmiga', '4.0/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
     ('des', 'Desert Fury', 'A group of mercenaries is hired to rescue hostages from a warlord in the desert.', 'Action', '2024-01-15', 'https://m.media-amazon.com/images/I/91L6nkSxJ-L._AC_UF1000,1000_QL80_.jpg', 'Dwayne Johnson, Jason Statham', '4.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
-    ('art', 'The Artists Muse', 'A talented painter finds inspiration in a mysterious woman who becomes his muse.', 'Drama', '2024-02-10', 'https://m.media-amazon.com/images/I/51c7xJQYvUL._AC_UF894,1000_QL80_.jpg', 'Brad Pitt, Angelina Jolie', '4.0/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
     ('win', 'Amazing Winter Romance', 'A couple finds love during a winter retreat, but their pasts threaten to tear them apart.', 'Romantic', '2024-03-05', 'https://media-cache.cinematerial.com/p/500x/ugfxlxru/amazing-winter-romance-movie-cover.jpg?v=1588612341', 'Ryan Gosling, Emma Stone', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
     ('cur', 'The Cursed Village', 'A group of friends visits a remote village for a vacation, only to discover that it is cursed by an ancient evil.', 'Horror', '2024-04-01', 'https://images.squarespace-cdn.com/content/v1/511eea22e4b06642027a9a99/2d939f17-3702-4a0c-8b47-af7d85c8423b/The+Cursed.jpg', 'Daniel Radcliffe, Emma Roberts', '4.0/5', '0', '1', '1', '0', '1', '2002-01-01', '2023-01-01'),
     ('sky', 'Skyfall', 'An international spy must stop a terrorist organization from unleashing chaos from the skies.', 'Action', '2024-05-10', 'https://artofthemovies.co.uk/cdn/shop/products/skyfall_c668003e-502225.jpg?v=1630553609', 'Tom Cruise, Emily Blunt', '4.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
-    ('pia', 'The Pianist', 'A talented pianist struggles to survive the horrors of war and finds solace in his music.', 'Drama', '2024-06-05', 'https://m.media-amazon.com/images/I/61UZj3oFR3L._AC_UF894,1000_QL80_.jpg', 'Adrien Brody, Thomas Kretschmann', '5.0/5', '1', '0', '0', '1', '1', '2002-01-01', '2023-01-01');
+        ('fun1', 'Funny Business', 'A group of comedians compete to be the funniest in a comedy competition.', 'Comedy', '2024-06-01', 'https://m.media-amazon.com/images/M/MV5BNjAwNDlkZTctMTkxYS00OTNmLWE1YzctNmMyZGJlNDFhYTI3XkEyXkFqcGdeQXVyMTM2OTQ4MDM@._V1_FMjpg_UX1000_.jpg', 'Adam Sandler, Kevin Hart', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('fun2', 'Laugh Out Loud', 'A stand-up comedian navigates the ups and downs of the comedy world.', 'Comedy', '2024-06-15', 'https://m.media-amazon.com/images/M/MV5BMTA0MjI5ODA3MjReQTJeQWpwZ15BbWU3MDI1NTE3Njc@._V1_FMjpg_UX1000_.jpg', 'Amy Schumer, Ali Wong', '4.0/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('fun4', 'Jokesters', 'A group of friends start a comedy club and navigate the challenges of the comedy world.', 'Comedy', '2024-07-15', 'https://images.jdmagicbox.com/comp/jd_social/news/2018aug08/image-216017-4m3cdntz42.jpg', 'Tina Fey, Amy Poehler', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('fun5', 'Comedy Night', 'A comedy show featuring stand-up, sketches, and musical performances.', 'Comedy', '2024-08-01', 'https://i.pinimg.com/474x/8e/fe/c2/8efec2f7a8b189bcfddbf8889b65d25e.jpg', 'Will Ferrell, Kristen Wiig', '4.0/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('fun6', 'Funny People', 'A comedy about a group of people who find humor in everyday life.', 'Comedy', '2024-08-15', 'https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/14aa1bdb8ac2001d9469ecf1f08b1d8a88f2c2cf160bf866934bd61a31f25a54._RI_TTW_.jpg', 'Seth Rogen, Jonah Hill', '4.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('fun7', 'Comedy Club', 'A comedy show featuring stand-up, sketches, and interviews with comedians.', 'Comedy', '2024-09-01', 'https://m.media-amazon.com/images/M/MV5BMTU1MjkwMzMwNF5BMl5BanBnXkFtZTgwNDMzNDcwODE@._V1_QL75_UX190_CR0,2,190,281_.jpg', 'Ellen DeGeneres, Wanda Sykes', '3.5/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+    ('fun8', 'Laugh Factory', 'A comedy show featuring stand-up, improv, and sketches.', 'Comedy', '2024-09-15', 'https://m.media-amazon.com/images/M/MV5BMGFkODJjMGItOTU3NC00MTAwLTk5MWQtODkyNmVkYjU3ZjFiXkEyXkFqcGdeQXVyODQ3NTU0MzY@._V1_FMjpg_UX1000_.jpg', 'Jerry Seinfeld, Larry David', '4.0/5', '1', '0', '0', '1', '0', '2002-01-01', '2023-01-01'),
+	('fun9', 'Bridesmaids', 'A maid of honor must deal with her bridesmaids antics before her best friends wedding.', 'Comedy', '2011-05-13', 'https://m.media-amazon.com/images/M/MV5BMjAyOTMyMzUxNl5BMl5BanBnXkFtZTcwODI4MzE0NA@@._V1_FMjpg_UX1000_.jpg', 'Kristen Wiig, Maya Rudolph', '4.2/5', '0', '0', '1', '0', '0', '2011-05-12', '2023-05-12'),
+    ('fun10', 'The Hangover', 'Three friends wake up in Las Vegas with no memory of the previous night and a missing groom.', 'Comedy', '2009-06-05', 'https://static.posters.cz/image/1300/posters/the-hangover-the-morning-after-i8825.jpg', 'Bradley Cooper, Ed Helms', '4.4/5', '0', '0', '1', '0', '0', '2009-06-04', '2023-06-04'),
+    ('fun11', 'Forgetting Sarah Marshall', 'A musician goes on vacation to Hawaii to get over his ex-girlfriend, but he ends up running into her.', 'Comedy', '2008-04-18', 'https://images.store.sky.com/api/img/asset/en/66D8BB8A-E4E8-4422-9242-603110084545_C7135B82-291C-4F2A-B61D-45317631B3DC_2021-9-21-T9-18-25.jpg?s=260x371', 'Jason Segel, Kristen Bell', '4.2/5', '0', '0', '0', '1', '0', '2008-04-17', '2023-04-17'),
+    ('fun12', 'Bridesmaids 2', 'The bridesmaids from the first movie reunite for another wild adventure.', 'Comedy', '2019-05-19', 'https://www.tvguide.com/a/img/catalog/provider/1/2/1-7806244329.jpg', 'Kristen Wiig, Melissa McCarthy', '3.9/5', '0', '0', '0', '0', '0', '2019-05-18', '2023-05-18'),
+    ('fun13', '21 Jump Street 2', 'The two undercover cops from the first movie are back, this time investigating a drug ring at a college.', 'Comedy', '2014-06-13', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTqSvOkENbQrLunFfgEpBHlPjhRWyZ4DRILgUd4YKkD-uWKk_uniLKPYJ9ZA_OhAuglgI&usqp=CAU', 'Jonah Hill, Channing Tatum', '3.9/5', '0', '0', '0', '0', '0', '2014-06-12', '2023-06-12'),
+    ('fun14', 'Jumanji: Welcome to the Jungle', 'Four teenagers are sucked into a video game and must work together to survive.', 'Comedy', '2017-12-20', 'https://i.ebayimg.com/images/g/9w0AAOSwSzpbReqm/s-l1600.jpg', 'Dwayne Johnson, Jack Black', '4.1/5', '0', '0', '1', '0', '0', '2017-12-19', '2023-12-19'),
+	('fun15', 'Barbie', 'A live-action adaptation of the popular Barbie doll franchise.', 'Comedy', '2023-06-23', 'https://www.themoviedb.org/t/p/original/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg', 'Margot Robbie, Ryan Gosling', '4.0/5', '1', '0', '0', '1', '1', '2002-01-01', '2023-01-01'),
+    ('cas', 'The Matrix', 'A computer hacker learns that the world he lives in is actually a computer simulation.', 'Action', '1999-03-31', 'https://i.etsystatic.com/23402008/r/il/5c021e/2326618902/il_fullxfull.2326618902_brqu.jpg', 'Keanu Reeves, Laurence Fishburne', '4.6/5', '0', '0', '1', '1', '1', '1999-03-30', '2023-03-30'),
+  ('bom', 'Bumblebee', 'A young girl befriends a lost Autobot in 1980s California.', 'Action', '2018-12-21', 'https://i.ebayimg.com/images/g/NtEAAOSwatpgqMgu/s-l1200.webp', 'Hailee Steinfeld, John Cena', '4.3/5', '1', '1', '1', '0', '1', '2018-12-20', '2023-12-20'),
+  ('mis', 'Mission: Impossible - Fallout', 'Ethan Hunt and his team race against time to stop a nuclear attack.', 'Action', '2018-07-27', 'https://i.ebayimg.com/images/g/qt8AAOSwsbBbMpYZ/s-l1200.jpg', 'Tom Cruise, Henry Cavill', '4.2/5', '0', '0', '0', '1', '0', '2018-07-26', '2023-07-26'),
+  ('inc', 'Inception', 'A thief steals information by entering peoples dreams.', 'Action', '2010-07-16', 'https://i.ebayimg.com/images/g/D~IAAOSwg01jDs5E/s-l1200.jpg', 'Leonardo DiCaprio, Ellen Page', '4.8/5', '0', '0', '0', '1', '0', '2010-07-15', '2023-07-15'),
+  ('spi', 'Spider-Man: No Way Home', 'Peter Parker asks Doctor Strange to help him make his identity a secret again, but the spell backfires.', 'Action', '2021-12-17', 'https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg', 'Tom Holland, Zendaya', '3.4/5', '0', '1', '0', '1', '1', '2021-12-16', '2023-12-16'),
+  ('tdk', 'The Dark Knight', 'Batman must stop the Joker from creating chaos in Gotham City.', 'Action', '2008-07-18', 'https://cdn.europosters.eu/image/750/posters/batman-dark-knight-joker-i116354.jpg', 'Christian Bale, Heath Ledger', '4.0/5', '1', '1', '1', '1', '1', '2021-12-16', '2023-12-16'),
+  ('tdkr', 'The Dark Knight Rises', 'Batman returns to fight Bane and save Gotham City.', 'Action', '2012-07-20', 'https://m.media-amazon.com/images/I/81etp3cD3ML.jpg', 'Christian Bale, Anne Hathaway', '8.4/10', '0', '1', '0', '1', '1', '2012-07-19', '2023-07-19'),
+  ('ext', 'Extraction', 'A black ops mercenary is sent to rescue the kidnapped son of an Indian crime lord.', 'Action', '2020-04-24', 'https://i.ebayimg.com/images/g/VkcAAOSwDTlhPwn8/s-l1200.jpg', 'Chris Hemsworth, Randeep Hooda', '4.0/5', '1', '1', '0', '0', '1', '2020-04-23', '2023-04-23'),
+  ('hold', 'The Old Guard', 'A group of immortal mercenaries must protect their secret from the world.', 'Action', '2020-07-10', 'https://m.media-amazon.com/images/M/MV5BZTY5YTk0ZDMtODg0Zi00OGM4LTgxMTQtODAzODg2ZjE2MmM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg', 'Charlize Theron, KiKi Layne', '3.6/5', '0', '1', '1', '1', '1', '2020-07-09', '2023-07-09'),
+ ('tra', 'Train to Busan', 'A group of passengers on a train to Busan must fight for their lives when a zombie virus breaks out.', 'Action', '2016-07-20', 'https://c8.alamy.com/comp/R2HJ0R/busanhaeng-train-to-busan-year-2016-south-korea-director-sang-ho-yeon-movie-poster-usa-R2HJ0R.jpg', 'Gong Yoo, Jung Yu-mi', '4.1/5', '1', '1', '1', '1', '1', '2016-07-19', '2023-07-19'),
+  ('wow', 'Wonder Woman', 'A Amazonian princess leaves her home to fight in World War I.', 'Action', '2017-06-02', 'https://i.ebayimg.com/images/g/iEQAAOSwuFtbT1R9/s-l1600.jpg', 'Gal Gadot, Chris Pine', '3.6/5', '1', '0', '1', '1', '1', '2017-06-01', '2023-06-01');*/
+
+
 
 select * from screenhunts;
 select * from users;
 
 DELETE  FROM screenhunts
-WHERE id = 1;
+WHERE genre = 'drama';
 
 DELETE FROM users
 WHERE emailid IN ('xssxm');
@@ -29,13 +50,12 @@ SET SQL_SAFE_UPDATES = 1;
 
 
 UPDATE screenhunts
-SET Poster = 'https://m.media-amazon.com/images/I/81yAfVk+7UL._AC_UF894,1000_QL80_.jpg'
-WHERE id = 14;
+SET Poster = 'https://www.themoviedb.org/t/p/original/f6l9rghSHORkWLurUGJhaKAiyjY.jpg'
+WHERE id = 17;
 
 UPDATE screenhunts
-SET Disney = '1'
-WHERE id = 9;
+SET Prime = '0'
+WHERE id IN (59);
 
-UPDATE screenhunts
-SET id = '1'
-WHERE id = 4;
+SELECT COUNT(*) FROM screenhunts
+where genre = 'action' ;
