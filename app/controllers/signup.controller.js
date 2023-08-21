@@ -27,7 +27,7 @@ module.exports.signup = async (req, res) => {
 
         console.log(result.length, 'check email id');
         if (result.length > 0) {
-            res.send({status: false, msg: "Email Id Already Exits"});
+            res.send({status: false, msg: "Email Id Already Exits."});
         } else { // password decrypt
             decryptpwd = await bcrypt.hash(pass, 10);
             // insert data
@@ -38,7 +38,7 @@ module.exports.signup = async (req, res) => {
                 if (err) 
                     throw err;
                 
-                res.send({status: true, msg: "User register successful"});
+                res.send({status: true, msg: "User register successful."});
             });
         }
     });
@@ -63,13 +63,13 @@ module.exports.login = (req, res) => {
             let chkpwd = await bcrypt.compare(pass, result[0].pass);
             console.log(chkpwd, "chkpwd##");
             if (chkpwd === true) {
-                res.send({status: true, result: result, msg: "User login successful"});
+                res.send({status: true, result: result, msg: "User login successful.s"});
             }else {
-              res.send({status: false, msg: 'Invalid emailid or password!!'})
+              res.send({status: false, msg: 'Invalid emailid or password.'})
           }
 
         } else {
-            res.send({status: false, msg: 'Invalid emailid or password!!'})
+            res.send({status: false, msg: 'Invalid emailid or password.'})
         }
     });
 

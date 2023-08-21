@@ -33,21 +33,47 @@ VALUES ('las', 'The Last Stand', 'A retired soldier must defend his town from a 
   ('ext', 'Extraction', 'A black ops mercenary is sent to rescue the kidnapped son of an Indian crime lord.', 'Action', '2020-04-24', 'https://i.ebayimg.com/images/g/VkcAAOSwDTlhPwn8/s-l1200.jpg', 'Chris Hemsworth, Randeep Hooda', '4.0/5', '1', '1', '0', '0', '1', '2020-04-23', '2023-04-23'),
   ('hold', 'The Old Guard', 'A group of immortal mercenaries must protect their secret from the world.', 'Action', '2020-07-10', 'https://m.media-amazon.com/images/M/MV5BZTY5YTk0ZDMtODg0Zi00OGM4LTgxMTQtODAzODg2ZjE2MmM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg', 'Charlize Theron, KiKi Layne', '3.6/5', '0', '1', '1', '1', '1', '2020-07-09', '2023-07-09'),
  ('tra', 'Train to Busan', 'A group of passengers on a train to Busan must fight for their lives when a zombie virus breaks out.', 'Action', '2016-07-20', 'https://c8.alamy.com/comp/R2HJ0R/busanhaeng-train-to-busan-year-2016-south-korea-director-sang-ho-yeon-movie-poster-usa-R2HJ0R.jpg', 'Gong Yoo, Jung Yu-mi', '4.1/5', '1', '1', '1', '1', '1', '2016-07-19', '2023-07-19'),
-  ('wow', 'Wonder Woman', 'A Amazonian princess leaves her home to fight in World War I.', 'Action', '2017-06-02', 'https://i.ebayimg.com/images/g/iEQAAOSwuFtbT1R9/s-l1600.jpg', 'Gal Gadot, Chris Pine', '3.6/5', '1', '0', '1', '1', '1', '2017-06-01', '2023-06-01');*/
-
-
-
+  ('wow', 'Wonder Woman', 'A Amazonian princess leaves her home to fight in World War I.', 'Action', '2017-06-02', 'https://i.ebayimg.com/images/g/iEQAAOSwuFtbT1R9/s-l1600.jpg', 'Gal Gadot, Chris Pine', '3.6/5', '1', '0', '1', '1', '1', '2017-06-01', '2023-06-01'),
+  ('pso', 'Pride & Prejudice', 'A young woman navigates love and social class in 19th century England.', 'Romantic', '2005-11-11', 'https://flxt.tmsimg.com/assets/p159494_p_v10_ag.jpg', 'Keira Knightley, Matthew Macfadyen', '4.2/5', '0', '0', '0', '0', '0', '2005-11-10', '2023-11-10'),
+  ('tfa', 'The Fault in Our Stars', 'Two teenagers with cancer embark on a life-changing journey.', 'Romantic', '2014-06-06', 'https://m.media-amazon.com/images/M/MV5BNTVkMTFiZWItOTFkOC00YTc3LWFhYzQtZTg3NzAxZjJlNTAyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg', 'Shailene Woodley, Ansel Elgort', '4.1/5', '0', '0', '0', '0', '1', '2014-06-05', '2023-06-05'),
+  ('lal', 'La La Land', 'A musician and an aspiring actress fall in love in Los Angeles.', 'Romantic', '2016-12-09', 'https://www.belarte.co.uk/cdn/shop/products/LALALAND_2aaef1c8-de7d-4268-8d9b-0f9246982ac1.jpg?v=1622308762', 'Ryan Gosling, Emma Stone', '4.0/5', '0', '0', '1', '1', '0', '2016-12-08', '2023-12-08'),
+  ('ttn', 'Titanic', 'A young couple from different social classes fall in love aboard the Titanic.', 'Romantic', '1997-12-19', 'https://m.media-amazon.com/images/I/71yCx0m21kL.jpg', 'Leonardo DiCaprio, Kate Winslet', '4.5/5', '1', '0', '0', '1', '1', '1997-12-18', '2023-12-18'),
+  ('btf', 'Before Sunrise', 'Two strangers form a connection during a chance encounter in Vienna.', 'Romantic', '1995-01-27', 'https://bingeddata.s3.amazonaws.com/uploads/2020/11/before-sunrise.jpg', 'Ethan Hawke, Julie Delpy', '4.1/5', '0', '0', '0', '0', '0', '1995-01-26', '2023-01-26'),
+  ('ama', 'Amelie', 'A shy waitress sets out to improve the lives of those around her.', 'Romantic', '2001-04-25', 'https://www.mauvais-genres.com/24524-thickbox_default/amelie-original-movie-poster-15x21-in-2001-jean-pierre-jeunet-audrey-tautou.jpg', 'Audrey Tautou, Mathieu Kassovitz', '4.3/5', '1', '0', '0', '1', '1', '2001-04-24', '2023-04-24'),
+  ('etl', 'Eternal Sunshine of the Spotless Mind', 'A couple undergo a procedure to erase each other from their memories.', 'Romantic', '2004-03-19', 'https://m.media-amazon.com/images/I/51+uVwfCfaL._AC_UF894,1000_QL80_.jpg', 'Jim Carrey, Kate Winslet', '4.3/5', '1', '0', '0', '1', '0', '2004-03-18', '2023-03-18'),
+  ('slp', 'Silver Linings Playbook', 'A man with bipolar disorder forms a connection with a mysterious woman.', 'Romantic', '2012-11-16', 'https://m.media-amazon.com/images/I/51RC5MydviL._AC_UF894,1000_QL80_.jpg', 'Bradley Cooper, Jennifer Lawrence', '4.0/5', '1', '0', '0', '1', '1', '2012-11-15', '2023-11-15'),
+  ('wll', 'The Wedding Planner', 'A wedding planner falls in love with the groom of one of her clients.', 'Romantic', '2001-01-26', 'https://www.themoviedb.org/t/p/original/meq4bLUPcBlOG3Z5YdiWuBMlpO.jpg', 'Jennifer Lopez, Matthew McConaughey', '3.2/5', '0', '0', '0', '0', '1', '2001-01-25', '2023-01-25'),
+  ('nha', 'Notting Hill', 'A British bookseller falls in love with a famous American actress.', 'Romantic', '1999-05-28', 'https://m.media-amazon.com/images/I/81X22GSrSXL.jpg', 'Hugh Grant, Julia Roberts', '3.9/5', '1', '0', '0', '1', '0', '1999-05-27', '2023-05-27'),
+  ('psl', 'P.S. I Love You', 'A widow discovers that her late husband left her a series of letters.', 'Romantic', '2007-12-21', 'https://m.media-amazon.com/images/I/51AMZtaX2DL._AC_UF894,1000_QL80_.jpg', 'Hilary Swank, Gerard Butler', '4.0/5', '1', '0', '0', '1', '1', '2007-12-20', '2023-12-20'),
+  ('tbd', 'The Best of Me', 'Two former high school sweethearts reunite after many years.', 'Romantic', '2014-10-17', 'https://m.media-amazon.com/images/M/MV5BMzQ5Njg3Njk5N15BMl5BanBnXkFtZTgwODIwODIxMjE@._V1_.jpg', 'James Marsden, Michelle Monaghan', '3.4/5', '1', '0', '0', '1', '1', '2014-10-16', '2023-10-16'),
+   ('ins', 'Insidious', 'A family looks to prevent evil spirits from trapping their comatose child.', 'Horror', '2011-04-01', 'https://m.media-amazon.com/images/I/6170oTjQUgL._AC_UF894,1000_QL80_.jpg', 'Patrick Wilson, Rose Byrne', '3.8/5', '1', '0', '0', '1', '1', '2011-03-31', '2023-03-31'),
+  ('snw', 'Sinister', 'A true-crime writer discovers a box of home movies that suggest murder.', 'Horror', '2012-10-12', 'https://m.media-amazon.com/images/I/51je0CBK9CL._AC_UF894,1000_QL80_.jpg', 'Ethan Hawke, Juliet Rylance', '3.9/5', '0', '0', '0', '0', '1', '2012-10-11', '2023-10-11'),
+  ('hll', 'Hereditary', 'A family begins to unravel cryptic and terrifying secrets about their ancestry.', 'Horror', '2018-06-08', 'https://i.etsystatic.com/26881902/r/il/c34484/2859797302/il_570xN.2859797302_kl5m.jpg', 'Toni Collette, Milly Shapiro', '4.0/5', '1', '0', '0', '1', '0', '2018-06-07', '2023-06-07'),
+  ('gtg', 'Get Out', 'A black man uncovers disturbing secrets when he visits his white girlfriends family.', 'Horror', '2017-02-24', 'https://i.ebayimg.com/images/g/9MUAAOSwZZpc~YBJ/s-l1200.jpg', 'Daniel Kaluuya, Allison Williams', '4.2/5', '1', '0', '0', '1', '1', '2017-02-23', '2023-02-23'),
+  ('aqp', 'A Quiet Place', 'A family must live in silence to avoid creatures that hunt by sound.', 'Horror', '2018-04-06', 'https://upload.wikimedia.org/wikipedia/en/a/a0/A_Quiet_Place_film_poster.png', 'Emily Blunt, John Krasinski', '4.1/5', '1', '0', '0', '0', '1', '2018-04-05', '2023-04-05'),
+  ('itf', 'It Follows', 'A young woman is pursued by a supernatural entity after a sexual encounter.', 'Horror', '2015-03-27', 'https://static.onecms.io/wp-content/uploads/sites/6/2015/03/it-follows-1-2000.jpg', 'Maika Monroe, Keir Gilchrist', '3.8/5', '1', '1', '1', '1', '0', '2015-03-26', '2023-03-26'),
+  ('bbl', 'Babadook', 'A mother and son are haunted by a sinister presence.', 'Horror', '2014-11-28', 'https://m.media-amazon.com/images/I/71Li1EgeS0L._AC_UF894,1000_QL80_.jpg', 'Essie Davis, Noah Wiseman', '3.7/5', '1', '0', '0', '1', '0', '2014-11-27', '2023-11-27'),
+  ('twt', 'The Witch', 'A family in 1630s New England is torn apart by the forces of witchcraft.', 'Horror', '2016-02-19', 'https://static.onecms.io/wp-content/uploads/sites/6/2015/12/the-witch.jpg', 'Anya Taylor-Joy, Ralph Ineson', '3.9/5', '1', '0', '0', '1', '0', '2016-02-18', '2023-02-18'),
+  ('dnt', 'Dont Breathe', 'A group of friends break into a blind mans house, but things go horribly wrong.', 'Horror', '2016-08-26', 'https://m.media-amazon.com/images/M/MV5BZGI5ZTU2M2YtZWY4MC00ZDFhLTliYTItZTk1NjdlN2NkMzg2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_.jpg', 'Stephen Lang, Jane Levy', '3.8/5', '1', '0', '0', '1', '0', '2016-08-25', '2023-08-25'),
+  ('usm', 'Us', 'A family is confronted by doppelgangers of themselves.', 'Horror', '2019-03-22', 'https://artofthemovies.co.uk/cdn/shop/products/IMG_4154_1-780453.jpg?v=1618440300', 'Lupita Nyongo, Winston Duke', '4.0/5', '1', '0', '0', '1', '0', '2019-03-21', '2023-03-21'),
+  ('awq', 'A Quiet Place Part II', 'The Abbott family must face the terrors of the outside world.', 'Horror', '2021-05-28', 'https://www.themoviedb.org/t/p/original/6wUN67cWo6mLlhsrSVxZY0pmlSq.jpg', 'Emily Blunt, Cillian Murphy', '4.1/5', '1', '0', '1', '1', '0', '2021-05-27', '2023-05-27'),
+   ('gzo', 'Gozu', 'A yakuza enforcer is ordered to secretly drive his beloved colleague to be assassinated.', 'Horror', '2003-05-17', 'https://i.ebayimg.com/images/g/dLwAAOxyBvZTTCVk/s-l1600.jpg', 'Hideki Sone, Shô Aikawa', '3.7/5', '1', '0', '0', '1', '0', '2003-05-16', '2023-05-16'),
+    ('zln', 'Zoolander', 'A clueless fashion model is brainwashed to kill the Prime Minister of Malaysia.', 'Comedy', '2001-09-28', 'https://m.media-amazon.com/images/M/MV5BODI4NDY2NDM5M15BMl5BanBnXkFtZTgwNzEwOTMxMDE@._V1_.jpg', 'Ben Stiller, Owen Wilson', '3.7/5', '1', '1', '1', '1', '1', '2001-09-27', '2023-09-27'),
+  ('wfl', 'Waiting for Forever', 'A man who has been in love with a woman since childhood decides to reconnect with her.', 'Romantic', '2011-02-04', 'https://images.moviesanywhere.com/712a63359c2faf117ead6940a532206a/ce10d6fb-44a0-4424-8099-26bfab4a468d.jpg', 'Rachel Bilson, Tom Sturridge', '3.5/5', '0', '0', '0', '0', '1', '2011-02-03', '2023-02-03');*/
+  
 select * from screenhunts;
 select * from users;
 
 DELETE  FROM screenhunts
-WHERE genre = 'drama';
+WHERE MovieName = 'Amelie';
 
 DELETE FROM users
 WHERE emailid IN ('xssxm');
 
-SET SQL_SAFE_UPDATES = 1;
+SET SQL_SAFE_UPDATES = 0;
 
+select * from screenhunts
+where genre = 'romantic';
 
 UPDATE screenhunts
 SET Poster = 'https://www.themoviedb.org/t/p/original/f6l9rghSHORkWLurUGJhaKAiyjY.jpg'
@@ -58,4 +84,4 @@ SET Prime = '0'
 WHERE id IN (59);
 
 SELECT COUNT(*) FROM screenhunts
-where genre = 'action' ;
+where genre = 'romantic' ;
